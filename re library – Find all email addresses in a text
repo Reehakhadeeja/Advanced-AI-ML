@@ -1,0 +1,5 @@
+import re
+
+text = "Contact us at support@example.com or sales@example.org"
+emails = re.findall(r'\S+@\S+', text)
+print("Emails found:", emails)
