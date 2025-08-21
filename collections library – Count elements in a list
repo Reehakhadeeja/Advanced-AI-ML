@@ -1,0 +1,5 @@
+from collections import Counter
+
+items = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
+counter = Counter(items)
+print("Item counts:", counter)
